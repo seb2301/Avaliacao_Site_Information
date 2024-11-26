@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comandos Básicos do Linux</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Comandos Básicos do Linux</h1>
+    </header>
+    <main>
+        <article>
+            <h2>Comandos Úteis</h2>
+            <ul>
+                <li><code>ls</code>: Lista arquivos e diretórios.</li>
+                <li><code>cd</code>: Navega entre diretórios.</li>
+                <li><code>mkdir</code>: Cria um novo diretório.</li>
+                <li><code>rm</code>: Remove arquivos ou diretórios.</li>
+                <li><code>chmod</code>: Modifica permissões de arquivos.</li>
+            </ul>
+            <p>Navegando pelo Sistema de Arquivos <br>
+                ls: Lista os arquivos e diretórios em um determinado local.<br>
+                ls -l: Lista os arquivos com detalhes adicionais, como permissões, tamanho e data de modificação.<br>
+                cd: Muda o diretório atual.<br>
+                cd ..: Volta um diretório.<br>
+                cd /: Vai para o diretório raiz.<br>
+                pwd: Mostra o caminho completo do diretório atual.<br>
+                Manipulando Arquivos e Diretórios<br>
+                mkdir: Cria um novo diretório.<br>
+                mkdir novo_diretorio: Cria um diretório chamado "novo_diretorio".<br>
+                touch: Cria um arquivo vazio.<br>
+                touch arquivo.txt: Cria um arquivo de texto chamado "arquivo.txt".<br>
+                cp: Copia arquivos ou diretórios.<br>
+                cp arquivo.txt novo_arquivo.txt: Copia o arquivo "arquivo.txt" para "novo_arquivo.txt".<br>
+                mv: Move ou renomeia arquivos e diretórios.<br>
+                mv arquivo.txt outro_diretorio: Move o arquivo para outro diretório.<br>
+                rm: Remove arquivos ou diretórios.<br>
+                ATENÇÃO: Use com cuidado! rm -r remove diretórios recursivamente.<br>
+                rm arquivo.txt: Remove o arquivo "arquivo.txt".<br>
+                Visualizando o Conteúdo de Arquivos<br>
+                cat: Mostra o conteúdo de um arquivo na tela.<br>
+                cat arquivo.txt: Mostra o conteúdo do arquivo "arquivo.txt".<br>
+                less: Permite visualizar arquivos grandes página por página.<br>
+                less arquivo.log: Abre o arquivo "arquivo.log" para visualização.<br>
+                head: Mostra as primeiras linhas de um arquivo.<br>
+                head -n 10 arquivo.log: Mostra as primeiras 10 linhas.<br>
+                tail: Mostra as últimas linhas de um arquivo.<br>
+                tail -n 5 arquivo.log: Mostra as últimas 5 linhas.<br>
+                Gerenciando Permissões<br>
+                chmod: Altera as permissões de arquivos e diretórios.<br>
+                chmod 755 arquivo.sh: Define as permissões de execução para todos, leitura e execução para grupos e outros usuários.<br>
+                Outros Comandos Úteis<br>
+                sudo: Executa um comando com privilégios de superusuário (root).<br>
+                sudo apt update: Atualiza a lista de pacotes disponíveis (no caso do gerenciador de pacotes apt).<br>
+                man: Acessa os manuais de comando.<br>
+                man ls: Mostra a página de manual do comando "ls".<br>
+                find: Procura por arquivos e diretórios.<br>
+                find / -name arquivo.txt: Procura por um arquivo chamado "arquivo.txt" em todo o sistema de arquivos.<br>
+                grep: Procura por padrões em arquivos.<br>
+                grep 'palavra' arquivo.txt: Procura pela palavra "palavra" no arquivo "arquivo.txt".</p>
+        </article>
+    </main>
+    <footer>
+        <a href="index.html">Voltar</a>
+    </footer>
+</body>
+</html>
